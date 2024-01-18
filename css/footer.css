@@ -49,5 +49,5 @@ footer{
 }
 
 .footer-icons:hover .footer-icons__img{
-    animation: 1s icons-doong-doong infinite;
+    animation: 1s icons-doong-doong;
 }
