@@ -1,0 +1,33 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw; /* view-width 우리가 보는 화면에 100%를 채운다는 표현 */
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eaeaea;
+    background-color: white;
+}
+
+.footer-block{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.footer-icons{
+    font-size: 6px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+}
+
+.footer-icons__desc{
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.footer-icons__img{
+    width: 30px;
+}
